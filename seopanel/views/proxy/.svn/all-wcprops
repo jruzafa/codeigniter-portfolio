@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/101/trunk/seopanel/views/proxy
+END
+editproxy.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/101/trunk/seopanel/views/proxy/editproxy.ctp.php
+END
+newproxy.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/101/trunk/seopanel/views/proxy/newproxy.ctp.php
+END
+proxylist.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/101/trunk/seopanel/views/proxy/proxylist.ctp.php
+END

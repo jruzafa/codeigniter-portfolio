@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/171/trunk/seopanel/views/seoplugins
+END
+listseoplugins.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/171/trunk/seopanel/views/seoplugins/listseoplugins.ctp.php
+END
+seopluginleftmenu.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/89/trunk/seopanel/views/seoplugins/seopluginleftmenu.ctp.php
+END
+listplugininfo.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/171/trunk/seopanel/views/seoplugins/listplugininfo.ctp.php
+END
+showseoplugins.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/101/trunk/seopanel/views/seoplugins/showseoplugins.ctp.php
+END
+editseoplugin.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/171/trunk/seopanel/views/seoplugins/editseoplugin.ctp.php
+END

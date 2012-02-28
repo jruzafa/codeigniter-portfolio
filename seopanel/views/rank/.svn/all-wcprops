@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/171/trunk/seopanel/views/rank
+END
+generatereport.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/101/trunk/seopanel/views/rank/generatereport.ctp.php
+END
+rankreport.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/101/trunk/seopanel/views/rank/rankreport.ctp.php
+END
+findquickrank.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/101/trunk/seopanel/views/rank/findquickrank.ctp.php
+END
+showquickrank.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/171/trunk/seopanel/views/rank/showquickrank.ctp.php
+END

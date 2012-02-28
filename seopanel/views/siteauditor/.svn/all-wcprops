@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/213/trunk/seopanel/views/siteauditor
+END
+edit.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/edit.ctp.php
+END
+viewreports.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/viewreports.ctp.php
+END
+new.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/new.ctp.php
+END
+list.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/179/trunk/seopanel/views/siteauditor/list.ctp.php
+END
+importlinks.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/importlinks.ctp.php
+END
+runproject.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/runproject.ctp.php
+END
+showrunproject.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/showrunproject.ctp.php
+END
+reportlinks.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/reportlinks.ctp.php
+END
+showduplicatemetainfo.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/showduplicatemetainfo.ctp.php
+END
+croncommand.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/croncommand.ctp.php
+END
+projectreportsummary.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/171/trunk/seopanel/views/siteauditor/projectreportsummary.ctp.php
+END
+pagedetails.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/213/trunk/seopanel/views/siteauditor/pagedetails.ctp.php
+END

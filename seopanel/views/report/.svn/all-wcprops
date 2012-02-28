@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/171/trunk/seopanel/views/report
+END
+generatereport.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/101/trunk/seopanel/views/report/generatereport.ctp.php
+END
+graphicalreport.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/171/trunk/seopanel/views/report/graphicalreport.ctp.php
+END
+reportsummary.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/171/trunk/seopanel/views/report/reportsummary.ctp.php
+END
+timereport.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/89/trunk/seopanel/views/report/timereport.ctp.php
+END
+report.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/171/trunk/seopanel/views/report/report.ctp.php
+END
+quickrankchecker.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/171/trunk/seopanel/views/report/quickrankchecker.ctp.php
+END
+showquickrankchecker.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/101/trunk/seopanel/views/report/showquickrankchecker.ctp.php
+END
+croncommand.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/115/trunk/seopanel/views/report/croncommand.ctp.php
+END
+reportgenerator.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/89/trunk/seopanel/views/report/reportgenerator.ctp.php
+END
+reportgenerationmanager.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/101/trunk/seopanel/views/report/reportgenerationmanager.ctp.php
+END

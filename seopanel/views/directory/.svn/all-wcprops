@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/171/trunk/seopanel/views/directory
+END
+generatesubmission.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/101/trunk/seopanel/views/directory/generatesubmission.ctp.php
+END
+dirstatusgenerator.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/89/trunk/seopanel/views/directory/dirstatusgenerator.ctp.php
+END
+checksubmission.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/101/trunk/seopanel/views/directory/checksubmission.ctp.php
+END
+list.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/171/trunk/seopanel/views/directory/list.ctp.php
+END
+featuredsubmission.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/101/trunk/seopanel/views/directory/featuredsubmission.ctp.php
+END
+showsubmissionstats.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/89/trunk/seopanel/views/directory/showsubmissionstats.ctp.php
+END
+showsubmission.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/104/trunk/seopanel/views/directory/showsubmission.ctp.php
+END
+showcheckdir.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/101/trunk/seopanel/views/directory/showcheckdir.ctp.php
+END
+showsubmissionform.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/171/trunk/seopanel/views/directory/showsubmissionform.ctp.php
+END
+directoryreport.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/104/trunk/seopanel/views/directory/directoryreport.ctp.php
+END
+showsitesubmission.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/171/trunk/seopanel/views/directory/showsitesubmission.ctp.php
+END
+skippeddirs.ctp.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/104/trunk/seopanel/views/directory/skippeddirs.ctp.php
+END
