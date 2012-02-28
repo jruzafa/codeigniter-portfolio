@@ -5,5 +5,6 @@
 *~
 *.swp
 /_Xapplication/cache/
+/_Xapplication/logs/
 /.settings/
 /.project
