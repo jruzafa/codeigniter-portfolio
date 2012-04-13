@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.joseruzafa.es/en</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.joseruzafa.es/en/works</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.joseruzafa.es/en/social</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.joseruzafa.es/en/contact</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.joseruzafa.es/es</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.joseruzafa.es/es/trabajos</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.joseruzafa.es/es/social</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.joseruzafa.es/es/contacto</loc>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>
