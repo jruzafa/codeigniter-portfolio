@@ -52,7 +52,7 @@ $autoload['packages'] = array(APPPATH.'third_party');
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('session','simplelogin');
+//$autoload['libraries'] = array('session','simplelogin');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array('session','simplelogin');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('switchlibrary','menu','html','url','language');
+$autoload['helper'] = array('switchlibrary','menu','html','url');
 
 
 /*

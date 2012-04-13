@@ -42,7 +42,7 @@ $route['default_controller'] = "home";
 $route['404_override'] = '';
 
 
-$route['es/admin'] = 'admin/dashboard';
+//$route['admin'] = 'admin/dashboard';
 
 
 /*
@@ -51,24 +51,24 @@ $route['admin/trabajos'] = 'admin/trabajos';
 $route['admin/trabajos/editar/id/(:num)'] = "admin/trabajos/editar/id/$1";*/    
 
 /* Rutas en español */
-$route['es/trabajos'] = 'portfolio';
-$route['es/contacto'] = 'contact';
-$route['es/servicios'] = 'services';
-$route['en/works'] = 'portfolio';
+/*$route['trabajos'] = 'portfolio';
+$route['contacto'] = 'contact';
+$route['servicios'] = 'services';
+$route['en/works'] = 'portfolio';*/
 //$route['en/work/(:num)'] = 'portfolio/work/$1';
-$route['es/portfolio/trabajo/(:num)'] = 'portfolio/work/$1';
+//$route['es/portfolio/trabajo/(:num)'] = 'portfolio/work/$1';
 
 
 
 // URI like '/en/about' -&gt; use controller 'about'
-$route['^es/(.+)$'] = "$1";
-$route['^en/(.+)$'] = "$1";
+/*$route['^es/(.+)$'] = "$1";
+$route['^en/(.+)$'] = "$1";*/
  
 // '/en' and '/fr' URIs -&gt; use default controller
-$route['^es$'] = $route['default_controller'];
+/*route['^es$'] = $route['default_controller'];
 $route['^en$'] = $route['default_controller'];
 
 
-$route['works/(:num)'] = "admin/works";
+$route['works/(:num)'] = "admin/works";*/
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

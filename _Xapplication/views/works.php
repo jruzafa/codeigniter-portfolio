@@ -8,8 +8,8 @@
                                     <div class="layerimage">
                                         <?php 
                                         /*IMAGEN*/
-                                       $properties=property_image_work($work->nombre,120,81,'thumb','imagework'); ?>
-                                        <?=anchor("portfolio/".$this->lang->line('portfolio.url.work')."/$work->id","<span class=\"roll\" ></span>".img($properties),array('rel' => 'trabajos', 'class' => 'group','title' => $this->lang->line('portfolio.view')." ".$work->nombre)); ?>
+                                       $properties=property_image_work($work->name,120,81,'thumb','imagework'); ?>
+                                        <?=anchor("works/work/$work->id","<span class=\"roll\" ></span>".img($properties),array('rel' => 'works', 'class' => 'group','title' => 'view'." ".$work->name)); ?>
                                     </div>
                                 </div>
                                 <?php if($d==4): $d=1;?><div class="clear"></div><?php else: $d++; endif; ?>

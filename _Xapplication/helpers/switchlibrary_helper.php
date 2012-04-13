@@ -3,13 +3,6 @@ if ( ! function_exists('switchlibrary')){
     
     function switchlibrary($controllerName = null){
            if(isset($controllerName)){
-
-                $styles;
-                $scripts;
-
-                $returnScripts='';
-                $returnStyles='';
-
                 $jquery = 'public/js/jquery.min.js';
                 $cufon = 'public/js/cufon.yui.js';
                 $quicksand ='public/js/quicksand.js';
@@ -24,14 +17,14 @@ if ( ! function_exists('switchlibrary')){
                 $style = 'public/css/style.css';
                 $slidercss = 'public/css/anythingslider.css';
                 $fancyboxcss = 'public/js/fancybox/jquery.fancybox-1.3.0.css';
-                $twitter = 'public/js/twitter.min.js';
+                
 
                 switch($controllerName){
                     case 'Home':
                         $scripts=array($jquery,$cufon,$quicksand,$simpleslide,$general,$custom_index);
                         $styles=array($style);
                     break;
-                    case 'Portfolio':
+                    case 'Works':
                         $scripts=array($jquery,$cufon,$quicksand,$fancybox,$slider,$general,$custom_works);
                         $styles=array($style,$slidercss,$fancyboxcss);
                     break;

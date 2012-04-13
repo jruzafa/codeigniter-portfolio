@@ -19,28 +19,19 @@
 					<div id="acf-fields">
                                          <?php 
                                          echo form_open();
-                                            // echo lang('contact.name', 'contact_name');
-                                             echo '<p>'.lang('contact.name', 'contact_name').form_input('contact_name',set_value('contact_name')).'</p>';
-                                          //   echo "<div class=\"clear\"></div>";
-                                          //   echo form_label('E-mail', 'contact_email');
+                                             echo '<p>'.form_label('Name', 'contact_name').form_input('contact_name',set_value('contact_name')).'</p>';
                                              echo '<p>'.form_label('E-mail', 'contact_email').form_input('contact_email',set_value('contact_email')).'</p>';
-                                          //   echo "<div class=\"clear\"></div>";
-                                          //   echo lang('contact.message', 'contact_message');
-                                             echo '<p>'.lang('contact.message', 'contact_message').form_textarea('contact_message',set_value('contact_message')).'</p>';
-                                         //    echo "<div class=\"clear\"></div>";
-                                             if($this->lang->lang()=='es'){
-                                                 $class = 'button_sp';  
-                                             }else{
-                                                 $class = 'button';  
-                                             }
-                                             $extra=array('class' => $class,'name' => 'contact_submit');
+                                             echo '<p>'.form_label('Message', 'contact_message').form_textarea('contact_message',set_value('contact_message')).'</p>';
+                                             $extra=array('class' => 'button','name' => 'contact_submit');
                                              echo '<p>'.form_submit($extra).'</p>';
                                          echo form_close(); ?>
 					</div>
 				</div>
               </div>
               <div class="contact-content-right">
-                <p><?php echo $this->lang->line('contact.txt'); ?></p>
+                <p>
+                    Feel free to email me if you would like to work with me or want to say "Hello"
+                </p>
                 <ul>
                   
                   <li class="email"><?php echo safe_mailto('jose.ruzafa@gmail.com', 'jose.ruzafa@gmail.com'); ?></li>

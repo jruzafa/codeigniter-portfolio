@@ -25,11 +25,6 @@ class MY_Config extends CI_Config {
 			$uri = implode('/', $uri);
 		}
 
-		if (class_exists('CI_Controller'))
-		{
-			$uri = get_instance()->lang->localized($uri);
-		}
-
 		return parent::site_url($uri);
 	}
 }

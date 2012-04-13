@@ -1,25 +1,16 @@
 <?php 
 header ('Content-type: text/html; charset=utf-8');
 echo doctype('xhtml11'); 
-switch($this->lang->lang()){
-        case 'en':
-           $title_suffix = 'Developer web';
-           break;
-        case 'es':
-           $title_suffix = 'Programador web';
-           break;
-    }
-
 ?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->lang->lang(); ?>">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<title><?=$title; ?> - <?=$title_suffix?> | Jose Ruzafa Sierra</title>
+<title><?=$title?> - Web developer | Jose Ruzafa Sierra</title>
     <?php 
 
     $meta = array(       
-        array('name' => 'title', 'content' => $title.' - '.$title_suffix.' | Jose Ruzafa Sierra'),
+        array('name' => 'title', 'content' => 'Home - Web developer | Jose Ruzafa Sierra'),
         array('name' => 'robots', 'content' => 'index, follow'),
-        array('name' => 'description', 'content' => $description),
+        array('name' => 'description', 'content' => 'Web Application Developer with experience in Php OOP, Ruby, Ruby on Rails, Mysql, Html5, CSS3, Lamp, CodeIgniter.'),
         array('name' => 'Content-type', 'content' => 'text/html; charset=utf-8', 'type' => 'equiv')
     );
     echo meta($meta); ?>
@@ -33,7 +24,7 @@ switch($this->lang->lang()){
     <![endif]-->
     
      <script type="text/javascript">
-        lang = '<?=$this->lang->lang()?>';        
+        lang = 'en';        
     </script>
     <?php
     $ci = get_instance();

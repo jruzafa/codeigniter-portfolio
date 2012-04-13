@@ -4,19 +4,6 @@ class Contact extends CI_Controller{
     
     public function index() {
         
-       
-        
-        // Carga de ficheros de idiomas
-        $this->lang->load('config');
-        $this->lang->load('menu');
-        $this->lang->load('contact');
-        $this->lang->load('footer');
-        
-        
-        //Cargamos los helpers y librerias necesarias
-        $this->load->helper('html');
-        $this->load->helper('url');
-        
         $this->load->library('email');
         
         $config['protocol'] = 'mail';
@@ -39,10 +26,9 @@ class Contact extends CI_Controller{
         $this->form_validation->set_rules('contact_message', 'Mensaje', 'trim|required|min_length[2]');
 
         
-
-        $data['title'] = $this->lang->line('title.contact');
-        $data['description'] = $this->lang->line('description.contact');
-        $this->load->view('head',$data);
+        $data['title'] = 'Contact';
+        
+        $this->load->view('head', $data);
         $this->load->view('menu');
         
         if($this->form_validation->run()==FALSE){
@@ -65,9 +51,9 @@ class Contact extends CI_Controller{
             $this->email->message($mensaje);
 
             if($this->email->send()):
-                $data['message'] = $this->lang->line('email.sendok');
+                $data['message'] = 'Your message has been sent successfully.';
             else:
-                $data['message'] = $this->lang->line('email.senderror');              
+                $data['message'] = 'Failed to send the message.';              
             endif;
 
             
