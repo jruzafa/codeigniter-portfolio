@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /apps
-Disallow: /_Xapplication
-Allow: /
-Disallow: /_Xsystem
