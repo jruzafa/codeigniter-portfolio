@@ -8,11 +8,6 @@
             </a>
         </li>
         <li>
-            <a href="services" title="services" <?php echo is_current(site_url('services')); ?>>
-                Services
-            </a>
-        </li>   
-        <li>
             <a href="works" title="works" <?=is_current(site_url('works'))?>>
                 Works
             </a>

@@ -2,17 +2,26 @@
   <div class="panel-wrapper">
       <div class="home-content">
             <div id="text-about">
-                <h1>Bio</h1><p> Hello, my name is Jose Ruzafa Sierra and I'm <b>developer</b> applications web and
-             web pages, I have 4 years experience in the sector.</p>
+                <p> Hello, my name is Jose Ruzafa Sierra and I'm <b>web developer</b>           and 4 years and have been developed web pages & applications.</p>
              <br/>
              <p>
-                 I always create functional websites, creative and useful
-                 and web applications by exposing the simplicity and the latest web standards
-                 as fundamental principles, resulting in semantic XHTML and CSS and SEO.
-                 All my websites are 100% hand coded.
+                 I always create web applications, creative and useful
+                 and by exposing the simplicity and the latest web standards
+                 as fundamental principles, resulting in semantic XHTML and CSS.
+                 <br/>
              </p>
              <br/>
-             <p>In the section's work shows the <a href='en/works'>works</a> I have done.</p>
+             <p>My main technologies are:
+                <ul class="technologies">
+                    <li>Ruby on Rails</li>
+                    <li>Php</li>
+                    <li>Mysql</li>
+                    <li>Html 5 & Css3</li>
+                    <li>Javascript & Jquery</li>
+                </ul>
+             </p>
+             <br/>
+              <p>In the section's work shows the <a href='works'>works</a> I have done.</p>
              <br/>
             
             </div>
@@ -27,12 +36,15 @@
             </div>
           <div class="clear"></div>
           <div class="social">
-              <ol>
-                  <li><?=img(array('src'=>'public/images/gmail.jpg','width' => '35px', 'height' => '35px'))?><?php echo safe_mailto('jose.ruzafa@gmail.com', 'jose.ruzafa@gmail.com'); ?></li>
-                  <li><?=img(array('src'=>'public/images/skype.jpg','width' => '35px', 'height' => '35px'))?><a href="skype:jose.ruzafa?call">jose.ruzafa</a></li>
-                  <li><?=img(array('src'=>'public/images/linkedin.jpg','width' => '35px', 'height' => '35px'))?><?=anchor('http://es.linkedin.com/in/joseruzafa')?></li>
-                  <li><?=img(array('src'=>'public/images/twitter.jpg','width' => '35px', 'height' => '35px'))?><?=anchor('https://twitter.com/#!/jruzafa')?></li>
-              </ol>
+              <ul class="social_list">
+                  <li><?=anchor('https://github.com/jruzafa','Github')?></li>
+                  <li><?=anchor('https://bitbucket.org/jruzafa','Bitbucket')?></li>
+                  <li>
+                    <?php echo safe_mailto('jose.ruzafa@gmail.com', 'E-mail'); ?>
+                  </li>
+                  <li><?=anchor('https://twitter.com/#!/jruzafa','Twitter')?></li>
+                  <li><?=anchor('http://es.linkedin.com/in/joseruzafa','Linkedin')?></li>
+              </ul>
           </div>
       </div>
   </div>
