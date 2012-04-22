@@ -26,13 +26,10 @@ class Works extends CI_Controller{
         $this->load->helper('html');
         $this->load->helper('stringj');
         $this->load->model('works_model','',TRUE);
-        /*se carga solo un trabajo porque es in lightbox*/
+        /*se carga solo un trabajo porque es en lightbox*/
         $data['work']=$this->works_model->work($id);
         
-        //$data['works']=$this->portfolio_model->LoadWorks($this->lang->lang());
-        
         $this->load->view('lightbox',$data);
-
     }
 }
 ?>

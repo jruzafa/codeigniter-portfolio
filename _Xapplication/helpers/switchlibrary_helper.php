@@ -36,6 +36,10 @@ if ( ! function_exists('switchlibrary')){
                         $scripts=array($jquery,$cufon,$quicksand,$general);
                         $styles=array($style);
                     break;
+                    default:
+                        $scripts=array($jquery,$cufon,$quicksand,$simpleslide,$general,$custom_index);
+                        $styles=array($style);
+                    break;
                 }
 
                 for($sc=0;$sc<count($scripts);$sc++){

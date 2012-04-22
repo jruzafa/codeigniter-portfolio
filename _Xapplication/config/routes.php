@@ -39,16 +39,16 @@
 */
 
 $route['default_controller'] = "home";
-$route['404_override'] = '';
+$route['404_override'] = 'errors';
 
 
 //$route['admin'] = 'admin/dashboard';
 
 
-/*
+
 $route['admin'] = 'admin';
 $route['admin/trabajos'] = 'admin/trabajos';
-$route['admin/trabajos/editar/id/(:num)'] = "admin/trabajos/editar/id/$1";*/    
+$route['admin/trabajos/editar/id/(:num)'] = "admin/trabajos/editar/id/$1"; 
 
 /* Rutas en español */
 /*$route['trabajos'] = 'portfolio';

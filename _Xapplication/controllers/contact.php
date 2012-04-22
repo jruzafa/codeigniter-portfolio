@@ -1,5 +1,4 @@
 <?php
-
 class Contact extends CI_Controller{
     
     public function index() {
@@ -7,20 +6,15 @@ class Contact extends CI_Controller{
         $this->load->library('email');
         
         $config['protocol'] = 'mail';
-       // $config['mailpath'] = '/usr/sbin/sendmail';
+
         $config['charset'] = 'utf-8';
-        //$config['wordwrap'] = TRUE;
+
         $config['mailtype'] = 'html';
 
         $this->email->initialize($config);
         
-        
-        
-        
         $this->load->library('form_validation');
-       // $this->load->helper('email');
-        
-        
+             
         $this->form_validation->set_rules('contact_name', 'Nombre', 'trim|required|min_length[3]');
         $this->form_validation->set_rules('contact_email', 'E-Mail', 'trim|required|valid_email');
         $this->form_validation->set_rules('contact_message', 'Mensaje', 'trim|required|min_length[2]');

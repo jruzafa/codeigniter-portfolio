@@ -7,35 +7,19 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.joseruzafa.es/en</loc>
+  <loc>http://www.joseruzafa.es/</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.joseruzafa.es/en/works</loc>
+  <loc>http://www.joseruzafa.es/works</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.joseruzafa.es/en/social</loc>
+  <loc>http://www.joseruzafa.es/social</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.joseruzafa.es/en/contact</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.joseruzafa.es/es</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.joseruzafa.es/es/trabajos</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.joseruzafa.es/es/social</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.joseruzafa.es/es/contacto</loc>
+  <loc>http://www.joseruzafa.es/contact</loc>
   <changefreq>monthly</changefreq>
 </url>
 </urlset>

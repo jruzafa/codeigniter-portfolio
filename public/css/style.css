@@ -88,3 +88,4 @@ span.roll{background:url(../images/mag.png) center center no-repeat #000;height:
 .technologies{padding-left: 20px; padding-top: 10px;}
 .technologies li{font-weight: bold;	padding-bottom: 5px; background:url("../images/check.jpg") no-repeat scroll 0 0 transparent;display:block; height:13px; margin-bottom:5px;margin-right:20px;padding-left:25px;}
 .social_list li{font-weight: bold; padding-bottom: 5px; height: 13px; margin-bottom: 5px; }
+.not_found_box{margin:0 auto; margin-top:80px;width: 300px;}

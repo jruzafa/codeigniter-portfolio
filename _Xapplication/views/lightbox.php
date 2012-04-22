@@ -13,7 +13,6 @@
         <p><?=$work['description']; ?></p>
         <br/>
         <p><?=anchor($work['link'],'View link')?></p>
-           
     </div>
 </div>
 

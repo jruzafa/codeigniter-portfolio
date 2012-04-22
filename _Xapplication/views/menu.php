@@ -8,12 +8,12 @@
             </a>
         </li>
         <li>
-            <a href="works" title="works" <?=is_current(site_url('works'))?>>
+            <a href="<?php echo site_url('works'); ?>" title="works" <?=is_current(site_url('works'))?>>
                 Works
             </a>
         </li>
         <li>
-            <a href="contact" title="contact" <?=is_current(site_url('contact'))?>>
+            <a href="<?php echo site_url('contact'); ?>" title="contact" <?=is_current(site_url('contact'))?>>
                 Contact
             </a>
         </li>
