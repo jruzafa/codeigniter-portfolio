@@ -1,8 +1,9 @@
 <?php 
-header ('Content-type: text/html; charset=utf-8');
-echo doctype('xhtml11'); 
+// header ('Content-type: text/html; charset=utf-8');
+// echo doctype('xhtml11'); 
 ?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <title><?=$title?> - Web developer | Jose Ruzafa Sierra</title>
     <?php 

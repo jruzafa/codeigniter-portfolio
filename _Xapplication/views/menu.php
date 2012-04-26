@@ -1,4 +1,4 @@
-<div id="header">
+<header>
   <div id="logo"><a href="<?php echo base_url(); ?>" title="Go to home">Jose Ruzafa Sierra</a></div>
   <div id="nav">
       <ul id="menu">
@@ -19,6 +19,6 @@
         </li>
       </ul>
   </div>
-</div>
+</header>
 <div class="clear"></div>
 <div id="paper">

@@ -2,22 +2,24 @@
   <div class="panel-wrapper">
       <div class="home-content">
             <div id="text-about">
-                <p> Hello, my name is Jose Ruzafa Sierra and I'm <b>web developer</b>           and 4 years and have been developed web pages & applications.</p>
+              <p>Hello, I'm <strong>web developer addict</strong> :)</p>
              <br/>
              <p>
-                 I always create web applications, creative and useful
-                 and by exposing the simplicity and the latest web standards
-                 as fundamental principles, resulting in semantic XHTML and CSS.
-                 <br/>
+                 I build web applications with the latest technology has both backend and frontend, also develop under <strong>Prestashop</strong> online stores and <strong>Magento</strong>.
+             </p>
+             <br/>
+             <p>
+               Here are some of my web applications and web pages more recent. Feel free to check it out and let me know what you think.
              </p>
              <br/>
              <p>My main technologies are:
                 <ul class="technologies">
-                    <li>Ruby on Rails</li>
                     <li>Php</li>
+                    <li>Ruby on Rails</li>
                     <li>Mysql</li>
-                    <li>Html 5 & Css3</li>
-                    <li>Javascript & Jquery</li>
+                    <li>Html 5 &amp; Css3</li>
+                    <li>Javascript &amp; Jquery</li>
+                    <li>Linux (server &amp; enviroment)</li>
                 </ul>
              </p>
              <br/>
