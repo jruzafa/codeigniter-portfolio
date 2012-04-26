@@ -5,7 +5,7 @@
               <p>Hello, I'm <strong>web developer addict</strong> :)</p>
              <br/>
              <p>
-                 I build web applications with the latest technology has both backend and frontend, also develop under <strong>Prestashop</strong> online stores and <strong>Magento</strong>.
+                 I build web applications with the latest technology has both backend and frontend, also develop online stores under <strong>Prestashop</strong> and <strong>Magento</strong>.
              </p>
              <br/>
              <p>
