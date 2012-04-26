@@ -1,7 +1,7 @@
 <header>
   <div id="logo"><a href="<?php echo base_url(); ?>" title="Go to home">Jose Ruzafa Sierra</a></div>
-  <div id="nav">
-      <ul id="menu">
+  <nav>
+      <ul>
         <li>
             <a href="<?php echo site_url(); ?>" title="home" <?php echo is_current(site_url()); ?>>
                 Home
@@ -18,7 +18,7 @@
             </a>
         </li>
       </ul>
-  </div>
+  </nav>
 </header>
 <div class="clear"></div>
 <div id="paper">

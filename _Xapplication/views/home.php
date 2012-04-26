@@ -17,7 +17,7 @@
                     <li>Php</li>
                     <li>Ruby on Rails</li>
                     <li>Mysql</li>
-                    <li>Html 5 &amp; Css3</li>
+                    <li>Html 5 &amp; Css 3</li>
                     <li>Javascript &amp; Jquery</li>
                     <li>Linux (server &amp; enviroment)</li>
                 </ul>

@@ -5,15 +5,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title><?=$title?> - Web developer | Jose Ruzafa Sierra</title>
+  
+  <title><?=$title?> - Web developer | Jose Ruzafa Sierra</title>
+
+  <meta charset="UTF-8">
     <?php 
 
     $meta = array(       
         array('name' => 'title', 'content' => 'Home - Web developer | Jose Ruzafa Sierra'),
         array('name' => 'robots', 'content' => 'index, follow'),
         array('name' => 'description', 'content' => 'Web Application Developer with experience in Php OOP, Ruby, Ruby on Rails, Mysql, Html5, CSS3, Lamp, CodeIgniter.'),
-        array('name' => 'Content-type', 'content' => 'text/html; charset=utf-8', 'type' => 'equiv')
+     
     );
+
     echo meta($meta); ?>
     <!--[if IE 7]>
         <?php 
