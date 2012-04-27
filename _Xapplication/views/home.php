@@ -19,7 +19,7 @@
                     <li>Mysql</li>
                     <li>Html 5 &amp; Css 3</li>
                     <li>Javascript &amp; Jquery</li>
-                    <li>Linux (server &amp; enviroment)</li>
+                    <li>Linux (server &amp; development Environment)</li>
                 </ul>
              </p>
              <br/>
