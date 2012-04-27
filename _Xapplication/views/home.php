@@ -25,7 +25,6 @@
              <br/>
              <p>In the section's work shows the <a href='works'>works</a> I have done.</p>
              <br/>
-            
             </div>
             <div id="work-featured">
             <div id="slide">
