@@ -82,8 +82,8 @@ input[type="submit"]:focus, input[type="button"]:focus{outline:none;}
 span.roll{background:url(../images/mag.png) center center no-repeat #000;height:81px;position:absolute;width:120px;margin-left:7px;margin-top: 7px;z-index: 10;-webkit-box-shadow: 0px 0px 4px #000;-moz-box-shadow: 0px 0px 4px  #000;box-shadow: 0px 0px 4px  #000;}
 .social{height: 135px;float: right; margin-top: 5px;margin-right: 178px;}
 .social li img{vertical-align:middle;}
-.slide{margin-left:15px;margin-right:15px;width:130px;height:110px; float: left;}
-.slide_top{margin-left:15px;margin-right:15px;width:130px;height:110px; float: left; margin-bottom: 40px;}
+.slide{margin-left:22px;margin-right:22px;width:130px;height:110px; float: left;}
+.slide_top{margin-left:22px;margin-right:22px;width:130px;height:110px; float: left; margin-bottom: 40px;}
 #slide{margin-top: 8px;margin-left:22px;width:210px;height:120px;position:relative;}
 .technologies{padding-left: 20px; padding-top: 10px;}
 .technologies li{font-weight: bold;	padding-bottom: 5px; background:url("../images/check.jpg") no-repeat scroll 0 0 transparent;display:block; height:13px; margin-bottom:5px;margin-right:20px;padding-left:25px;}

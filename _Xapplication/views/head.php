@@ -32,7 +32,7 @@
     <?php
     $ci = get_instance();
     $controller_name = get_class($ci); 
-    echo switchlibrary($controller_name);
+    echo includeCss($controller_name);
    // echo includeJs($controller_name);
     ?>
      <script type="text/javascript">
