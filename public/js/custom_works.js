@@ -1,17 +1,17 @@
 // FANCYBOX  //
 $(document).ready(function() {
         $("a.group").fancybox({
-        'speedIn'		:	600,
-        'speedOut'		:	200,
-        'type' : 'ajax',
-        'titleShow'  : false
-});
+            'speedIn'		:	600,
+            'speedOut'		:	200,
+            'type' : 'ajax',
+            'titleShow'  : false
+        });
 });
 
 
 $(function () {
     $('#slider1').anythingSlider({
-        resizeContents : false,
+        resizeContents : true,
         hashTags : false,                 // How long between slide transitions in AutoPlay mode
         animationTime: 800,
        // width               : null,      // Override the default CSS width

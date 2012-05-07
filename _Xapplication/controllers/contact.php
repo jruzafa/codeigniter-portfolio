@@ -15,9 +15,9 @@ class Contact extends CI_Controller{
         
         $this->load->library('form_validation');
              
-        $this->form_validation->set_rules('contact_name', 'Nombre', 'trim|required|min_length[3]');
-        $this->form_validation->set_rules('contact_email', 'E-Mail', 'trim|required|valid_email');
-        $this->form_validation->set_rules('contact_message', 'Mensaje', 'trim|required|min_length[2]');
+        $this->form_validation->set_rules('contact_name', 'Name', 'trim|required|min_length[3]');
+        $this->form_validation->set_rules('contact_email', 'E-mail', 'trim|required|valid_email');
+        $this->form_validation->set_rules('contact_message', 'Message', 'trim|required|min_length[2]');
 
         
         $data['title'] = 'Contact';
