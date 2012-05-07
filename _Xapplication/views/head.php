@@ -33,17 +33,7 @@
     $ci = get_instance();
     $controller_name = get_class($ci); 
     echo includeCss($controller_name);
-   // echo includeJs($controller_name);
     ?>
-     <script type="text/javascript">
-        lang = 'en';        
-        if('<?php echo $controller_name; ?>'=='Home'){
-            jQuery(document).ready(function(){
-                jQuery('#slide').simpleSlide();
-            });
-            alert('home');
-        }
-    </script>
      <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-8206524-10']);

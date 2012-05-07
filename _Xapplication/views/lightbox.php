@@ -1,8 +1,8 @@
 <div id="fancybox_content">
     <div id="imagen">
         <?php 
-        $properties=property_image_work($work['name'],500,354,'full');
-        echo img($properties); ?>
+        $params=paramsImgWork($work['name'],500,354,'full');
+        echo img($params); ?>
     </div>
     <div class="clear"></div>
     <div id="texto">
@@ -11,7 +11,6 @@
         <h3><?=$work['services']; ?></h3>
         <br/>
         <p><?=$work['description']; ?></p>
-
     </div>
 </div>
 

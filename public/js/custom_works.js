@@ -1,4 +1,6 @@
 // FANCYBOX  //
+
+// load a fancybox
 $(document).ready(function() {
         $("a.group").fancybox({
             'speedIn'		:	600,
@@ -8,7 +10,7 @@ $(document).ready(function() {
         });
 });
 
-
+// Init the slider
 $(function () {
     $('#slider1').anythingSlider({
         resizeContents : true,
@@ -26,6 +28,7 @@ $(function () {
     }); // add any non-default options here
 });
 
+// Effect for hover thumbnails works
 $(function() {
     // OPACITY OF BUTTON SET TO 0%
     $(".roll").css("opacity","0");

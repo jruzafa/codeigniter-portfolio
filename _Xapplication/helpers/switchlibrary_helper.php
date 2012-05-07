@@ -6,7 +6,6 @@ if ( ! function_exists('includeCss')){
                 $style = 'public/css/style.css';
                 $slidercss = 'public/css/anythingslider.css';
                 $fancyboxcss = 'public/js/fancybox/jquery.fancybox-1.3.0.css';
-                
 
                 switch($controllerName){
                     case 'Works':
@@ -43,22 +42,18 @@ if ( ! function_exists('includeJs')){
                 $slider = 'public/js/jquery.anythingslider.js';
                 $simpleslide = 'public/js/slide.js';
      
-                
                 switch($controllerName){
                     case 'Home':
                         $scripts=array($jquery,$cufon,$quicksand,$simpleslide,$general,$custom_index);
                     break;
                     case 'Works':
                         $scripts=array($jquery,$cufon,$quicksand,$fancybox,$slider,$general,$custom_works);
-                       
                     break;
                     case 'Contact':
                         $scripts=array($jquery,$cufon,$quicksand,$general);
-                        
                     break;
                     default:
                         $scripts=array($jquery,$cufon,$quicksand,$simpleslide,$general,$custom_index);
-                      
                     break;
                 }
 
@@ -66,7 +61,6 @@ if ( ! function_exists('includeJs')){
                    $returnScripts.=link_script($script);
                 }
 
-               
                 return $returnScripts;
             }else{
                 return false;

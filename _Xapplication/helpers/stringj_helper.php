@@ -6,17 +6,8 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 * Transform name if work from database to image filename
 * @param string $name : string from database to convert image filename
 */
-function name2imagefn($name){
-    //check variable is it empty
-    if($name!=""){
-     $name=trim($name);
-     $name=str_replace(" ","",$name);
-     $name=strtolower($name);
-     return $name;
-    }
-}
 
-function property_image_work($name,$width,$height,$type,$class = null){
+function paramsImgWork($name,$width,$height,$type,$class = null){
     //check variable is it empty
     if($name!=""){
      $name=trim($name);

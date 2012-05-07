@@ -8,8 +8,8 @@
                                     <div class="layerimage">
                                         <?php 
                                         /*IMAGEN*/
-                                       $properties=property_image_work($work->name,120,81,'thumb','imagework'); ?>
-                                        <?=anchor("works/work/$work->id","<span class=\"roll\" ></span>".img($properties),array('rel' => 'works', 'class' => 'group','title' => 'view'." ".$work->name)); ?>
+                                       $params=paramsImgWork($work->name,120,81,'thumb','imagework'); ?>
+                                        <?=anchor("works/work/$work->id","<span class=\"roll\" ></span>".img($params),array('rel' => 'works', 'class' => 'group','title' => 'view'." ".$work->name)); ?>
                                     </div>
                                 </div>
                                 <?php if($d==4): $d=1;?><div class="clear"></div><?php else: $d++; endif; ?>
